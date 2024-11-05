@@ -1,0 +1,78 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.whl
+
+# Django
+*.log
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.DS_Store
+*.mo
+/static/
+**/migrations/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.env
+.env
+**/env/
+**/venv/
+**/.venv/
+**/.env/
+**/dumanskyi-vladlen-env/
+**/dumanskyi-env/
+**/pgdata/
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.log
+
+# Others
+*.swp
+*.swo
+*.bak
+*~
+
+# Docker
+**/pgdata/
+docker-compose.override.yml
+**/volumes
